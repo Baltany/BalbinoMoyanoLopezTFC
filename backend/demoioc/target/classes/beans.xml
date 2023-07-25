@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <!-- aquí van nuestras beans -->
+
+    <!-- cambiar rutas de acceso -->
+    <!-- IMPORTANTE -->
+    <bean id="clothes" class="com.iesvdc.tienda.demoioc.model.Clothes">
+        <property name="sizeType" value="M" />
+        <property name="description" value="Camiseta la mar de bonica" />
+        <property name="categoryType" value="SHIRT" />
+        <property name="image" value="IMAGE NOT FOUND" />
+        <property name="price" value="5.99" />
+        <property name="colorType" value="BEIGE" />
+        <property name="stock" value="5" />
+    </bean>
+</beans>
